@@ -1,4 +1,3 @@
-from ID3.model.entropy import count_entropy
 from ID3.model.inf_gain import inf_gain
 from ID3.model.utils import attribute_values
 from ID3.model.utils import subset_for_attribute

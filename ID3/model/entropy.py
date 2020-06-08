@@ -1,4 +1,3 @@
-import math
 import numpy as np
 from ID3.model.utils import attribute_values
 from ID3.model.utils import subset_for_attribute
@@ -6,6 +5,7 @@ from ID3.model.utils import subset_for_attribute
 
 def count_entropy(dataset):
     elements, occurrences = np.unique(dataset, return_counts=True)
+    entropy = 0
     for i in range(len(elements)):
         entropy = np.sum([(-occurrences[i] / np.sum(occurrences)) *
                           np.log2(occurrences[i] / np.sum(occurrences))])

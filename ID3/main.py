@@ -5,7 +5,7 @@ from ID3.view.view import pretty_print_tree
 
 def main():
 
-    dataset = get_dataset("C:/Users/HP/PycharmProjects/ID3/ID3/data/mushrooms.csv")
+    dataset = get_dataset("/home/janek/Desktop/PSZT/ID3/ID3/data/mushrooms.csv")
     target_attribute = "class"
     remaining_attributes = dataset.keys().drop("class")
 

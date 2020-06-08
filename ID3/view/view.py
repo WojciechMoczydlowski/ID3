@@ -2,8 +2,8 @@ import os
 
 
 def pretty_print_tree(root):
-    stack = []
-    rules = set()
+    start_stack = []
+    start_rules = set()
 
     def traverse(node, stack, rules):
         if 'label' in node:
@@ -19,5 +19,5 @@ def pretty_print_tree(root):
                 stack.pop()
             stack.pop()
 
-    traverse(root, stack, rules)
-    print(os.linesep.join(rules))
+    traverse(root, start_stack, start_rules)
+    print(os.linesep.join(start_rules))

@@ -1,3 +1,4 @@
+# author: Jan Piotrowski, Wojciech Moczydlowski
 import numpy as np
 from ID3.model.utils import attribute_values
 from ID3.model.utils import subset_for_attribute

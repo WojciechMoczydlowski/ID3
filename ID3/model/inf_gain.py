@@ -1,3 +1,4 @@
+# author: Jan Piotrowski, Wojciech Moczydlowski
 import math
 
 from ID3.model.entropy import count_entropy

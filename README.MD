@@ -1,3 +1,4 @@
+# author: Jan Piotrowski, Wojciech Moczydlowski
 # ID3
 
 This project implementing ID3 algorithm and have few examples of working on decision tree creating from datasets of mushrooms from https://archive.ics.uci.edu/ml/datasets/mushroom

@@ -1,3 +1,4 @@
+# author: Jan Piotrowski, Wojciech Moczydlowski
 def attribute_values(dataset, attribute):
     return dataset[attribute].unique()
 
